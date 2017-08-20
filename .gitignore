@@ -1,0 +1,5 @@
+spec/fixtures
+.bundle
+bin
+.rspec
+Gemfile.lock

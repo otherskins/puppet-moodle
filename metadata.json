@@ -1,0 +1,37 @@
+{
+    "name": "puppet-moodle",
+     "version": "0.1.0",
+     "author": "otherskins",
+     "license": "Apache-2.0",
+     "summary": "This module install and configures instances of Moodle.",
+     "source": "https://github.com/otherskins/puppet-moodle.git",
+     "project_page": "https://github.com/otherskins/puppet-moodle",
+     "issues_url": "https://github.com/otherskins/puppet-moodle/issues",
+     "tags": ["puppet", "moodle", "moodledata", "puppet-agent", "hiera 5"],
+     "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">=4.5.0 < 6.0.0"
+    }
+   ],
+     "operatingsystem_support": [
+       {
+       "operatingsystem":"RedHat",
+       "operatingsystemrelease":[ "6","7" ]
+       },
+       {
+       "operatingsystem":"CentOS",
+       "operatingsystemrelease":[ "6","7" ]
+       },
+       {
+       "operatingsystem": "Ubuntu",
+       "operatingsystemrelease": [ "16.04" ]
+       },
+       {
+       "operatingsystem": "Debian",
+       "operatingsystemrelease": [ "8" ]
+       }
+      ],
+    "dependencies": [
+    ]
+   }
