@@ -42,7 +42,11 @@
 #
 # Copyright 2017 Your name here, unless otherwise noted.
 #
-class moodle {
+class moodle (
+  Tuple $dependencies,
+  String $ensure,
+) {
 
+  contain ::moodle::install
 
 }

@@ -1,2 +1,22 @@
 ---
+moodle::dependencies:
+- 'php-iconv'
+- 'php-mbstring' 
+- 'php-curl'
+- 'php-openssl'
+- 'php-tokenizer'
+#- 'php-xmlpc'
+- 'php-soap'
+- 'php-ctype'
+- 'php-zip'
+- 'php-gd'
+- 'php-simplexml'
+- 'php-spl'
+- 'php-pcre'
+- 'php-dom'
+- 'php-xml'
+- 'php-intl'
+- 'php-json'
+- 'php-ldap'
+#- 'php-pecl-apc'
 ...
