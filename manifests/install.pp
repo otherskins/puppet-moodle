@@ -1,8 +1,6 @@
 class moodle::install {
 
-  contain ::apache
-  contain moodle::configure
-  contain moodle::database
+  contain moodle::config
 
   package { $moodle::dependencies:
     ensure => $moodle::ensure,

@@ -1,4 +1,4 @@
-class moodle::configure {
+class moodle::config {
 
   $dirname = 'moodle'
   $filename = 'moodle-latest-33.zip'
